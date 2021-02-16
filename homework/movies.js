@@ -76,15 +76,6 @@ for(let i=0; i<movies.length; i++) {
 //   //   to remove the class if the element already contains it.
 //   // ⬇️ ⬇️ ⬇️
 
-  //  let watchedButton = document.querySelector(`#movies-${movieId}).watched-button`)
-  //   console.log(watchedButton)
-
-  //   watchdedButton.addEventListener('click', async function(event){
-  //   event.preventDefault()
-  //   // document.querySelector(`.movies-${movieId}`).classList.add('opacity-20')
-  //   console.log(`Movie ${movieId} was watched.`)
-  //   })
-
   for (let i=0; i<movies.length; i++){
 
     let results = movies[i].results  
